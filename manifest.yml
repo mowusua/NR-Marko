@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NR-Marko
+  host: NR-Marko
+  disk_quota: 1024M
+  services:
+  - NR-Marko-cloudantNoSQLDB
+  - Language Translator-5h
